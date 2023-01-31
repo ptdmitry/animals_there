@@ -1,0 +1,25 @@
+ptdmitry@ubdesktoppt:~$ pwd
+/home/ptdmitry
+ptdmitry@ubdesktoppt:~$ cat > pet_animals
+Собаки
+Кошки
+Хомяки
+ptdmitry@ubdesktoppt:~$ cat > pack_animals
+Лошади
+Верблюды
+Ослы
+ptdmitry@ubdesktoppt:~$ cat pet_animals pack_animals > friends_of_man
+ptdmitry@ubdesktoppt:~$ cat friends_of_man 
+Собаки
+Кошки
+Хомяки
+Лошади
+Верблюды
+Ослы
+ptdmitry@ubdesktoppt:~$ mv friends_of_man animals_there/
+ptdmitry@ubdesktoppt:~$ sudo apt-get update
+ptdmitry@ubdesktoppt:~$ sudo apt-get upgrade
+ptdmitry@ubdesktoppt:~$ sudo apt-get install mysql-server
+ptdmitry@ubdesktoppt:~$ wget https://dev.mysql.com/get/mysql-apt-config_0.8.24-1_all.deb
+ptdmitry@ubdesktoppt:~$ sudo dpkg -i ./mysql-apt-config_0.8.24-1_all.deb
+ptdmitry@ubdesktoppt:~$ sudo dpkg -r mysql-apt-config
